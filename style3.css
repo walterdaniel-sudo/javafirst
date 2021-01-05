@@ -1,0 +1,57 @@
+header {
+    text-align: center;
+    display: block;
+    background-image: url(./joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 960px 540px;
+}
+h1 a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+h1 {
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+.ex {
+    display: block;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mainmenu {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+}
+.mainmenu li {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    list-style: none;
+    background-color: black;
+}
+.mainmenu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.button {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+}
+.button input {
+    background-color: black;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid white;
+}

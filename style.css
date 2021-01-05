@@ -1,0 +1,48 @@
+h1 {
+    font-size: 50px;
+    background-color: black;
+    display: inline;
+    padding: 0 15px;
+    color: white;
+}
+.onclick {
+    display: block;
+    margin: 20px;
+}
+.onclick input {
+    padding: 20px;
+    border: none;
+    background-color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.head {
+    display: grid;
+    text-align: center;
+}
+.main_menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: black;
+    padding: 0 15px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.main_menu li {
+    float: left;
+    margin: 0 15px;
+}
+.main_menu {
+    list-style: none;
+}
+.ex {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    margin: 50px;
+}

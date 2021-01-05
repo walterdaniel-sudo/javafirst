@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison operator</title>
+    <link rel="stylesheet" href="./style3.css">
+    <link rel="stylesheet" href="./movement3.js">
+</head>
+<body>
+    <div>
+        <div class="button">
+            <input id="night_day" type="button" value="night" onclick="
+            if(document.querySelector('#night_day').value === 'night'){
+                document.querySelector('body').style.backgroundColor='#000000'
+                document.querySelector('body').style.color='#FFFFFF'
+                document.querySelector('.ex').style.color='#000000'
+                document.querySelector('.ex').style.backgroundColor='#FFFFFF'
+                document.querySelector('#night_day').value = 'day'
+            } else {
+                document.querySelector('body').style.backgroundColor='#FFFFFF'
+                document.querySelector('body').style.color='#000000'
+                document.querySelector('.ex').style.color='#FFFFFF'
+                document.querySelector('.ex').style.backgroundColor='#000000'
+                document.querySelector('#night_day').value = 'night'
+            }
+            ">
+        </div>
+        <header>
+            <h1><a href="#a">Java script</a></h1>
+            <div class="innerheader">
+                <nav>
+                    <ul class="mainmenu">
+                        <li><a href="https://www.javascript.com/" target="_blank">OFFICIAL</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">CONCEPT</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank">USE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="ex">
+            <p>
+                JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.
+            </p>
+        </div>
+        <div>
+            <script>
+                document.write(1<3);
+            </script>
+            <h3>1&lt;2</h3>
+        </div>
+    </div>
+</body>
+</html>
